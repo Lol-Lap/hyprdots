@@ -8,6 +8,27 @@ plugins = [
 animation = "fromTop"
 command = "kitty --class kitty-dropterm"
 class = "kitty-dropterm"
-size = "75% 60%"
+size = "65% 60%"
 max_size = "1920px 100%"
-margin = 50
+margin = 47
+
+
+[scratchpads.ranger]
+animation = "fromLeft"
+command = "kitty --class kitty-ranger ranger"
+class = "kitty-ranger"
+size = "65% 55%"
+max_size = "1920px 100%"
+position = "336px 243px"
+margin = 340
+
+
+[scratchpads.spotify]
+animation = "fromBottom"
+command = "spotify"
+class = "Spotify"
+match_by = "class"
+size = "1245px 620px"
+max_size = "1920px 100%"
+lazy = true
+margin = 20 
