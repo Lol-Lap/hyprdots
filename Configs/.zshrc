@@ -1,3 +1,7 @@
+#default editor neovim
+export EDITOR=nvim
+export VISUAL=nvim
+
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
