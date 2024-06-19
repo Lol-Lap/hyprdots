@@ -10,16 +10,26 @@ command = "kitty --class kitty-dropterm"
 class = "kitty-dropterm"
 size = "65% 60%"
 max_size = "1920px 100%"
+offset = 700
 margin = 47
 
+[scratchpads.clock]
+animation = "fromRight"
+command = "kitty --class kitty-clock peaclock"
+class = "kitty-clock"
+size = "380px 275px"
+position = "1520px 403px"
+lazy = true
+max_size = "1920px 100%"
 
 [scratchpads.ranger]
 animation = "fromLeft"
 command = "kitty --class kitty-ranger ranger"
 class = "kitty-ranger"
-size = "65% 55%"
+size = "65% 60%"
 max_size = "1920px 100%"
-position = "336px 243px"
+position = "336px 216px"
+lazy = true
 margin = 340
 
 
@@ -28,7 +38,8 @@ animation = "fromBottom"
 command = "spotify"
 class = "Spotify"
 match_by = "class"
-size = "1245px 620px"
+size = "65% 620px"
 max_size = "1920px 100%"
 lazy = true
-margin = 20 
+margin = 20
+
