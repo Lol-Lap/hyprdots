@@ -22,10 +22,10 @@ position = "1520px 403px"
 lazy = true
 max_size = "1920px 100%"
 
-[scratchpads.ranger]
+[scratchpads.yazi]
 animation = "fromLeft"
-command = "kitty --class kitty-ranger ranger"
-class = "kitty-ranger"
+command = "kitty --class kitty-yazi -e yazi"
+class = "kitty-yazi"
 size = "65% 60%"
 max_size = "1920px 100%"
 position = "336px 216px"
