@@ -1,0 +1,56 @@
+[pyprland]
+plugins = [
+  "scratchpads",
+  "magnify",
+]
+
+
+[scratchpads.term]
+animation = "fromTop"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
+size = "65% 35%"
+max_size = "1920px 100%"
+offset = 700
+margin = 47
+
+[scratchpads.clock]
+animation = "fromRight"
+command = "kitty --class kitty-clock peaclock"
+class = "kitty-clock"
+size = "380px 275px"
+position = "1520px 403px"
+lazy = true
+max_size = "1920px 100%"
+
+[scratchpads.yazi]
+animation = "fromLeft"
+command = "kitty --class kitty-yazi -e yazi"
+class = "kitty-yazi"
+size = "65% 60%"
+max_size = "1920px 100%"
+position = "336px 216px"
+lazy = true
+margin = 340
+
+
+[scratchpads.spotify]
+animation = "fromBottom"
+command = "spotify"
+class = "Spotify"
+match_by = "class"
+size = "65% 620px"
+max_size = "1920px 100%"
+lazy = true
+margin = 20
+
+[scratchpads.obsidian]
+animation = "fromBottom"
+command = "obsidian"
+class = "obsidian"
+match_by = "class"
+size = "65% 620px"
+max_size = "1920px 100%"
+lazy = true
+margin = 20
+
